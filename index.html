@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>    
+    <header>
+        <h1 class="titulo">Encriptador de textos</h1>
+    </header>
+
+    <main> 
+        <div class="container">
+            <div class="ingreso"> 
+                <textarea id="ingresa_texto" placeholder="Escribe el texto aquí"></textarea> 
+                <div class="atencion"> 
+                    <img src="./assets/bi_exclamation-circle-fill.png" alt="es un signo de exclamacion">
+                    <p>Solo minúsculas, sin acentos, ni caracteres especiales, incluída la ñ.</p>
+                </div>
+                <div class="buttons_ingreso">
+                    <button id="encriptar" class="boton_encriptar">Encriptar</button>
+                    <button id="desencriptar" class="boton_desencriptar">Desencriptar</button>
+                    <button id="limpiar" class="boton_limpiar">Limpiar</button>
+                </div>
+            </div>
+
+            <div class="salida">
+                <div class="mensaje_salida">
+                    <img class="imagen" src="./assets/Muñeco.png" alt="es un muñeco con una lupa">
+                    <p class="mensaje" id="mensaje_salida">Ningún texto fue encontrado</p>
+                </div>
+                <button id="copiado" class="boton_copiado">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+       <div class="footer"><p><strong>Creado por Noelia Orsini para Alura Latam</strong></p></div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
