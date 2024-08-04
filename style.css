@@ -130,6 +130,7 @@ textarea {
     border-radius: 8px;
     text-align: center;   
     flex-direction: column;
+    overflow-wrap: anywhere;
 }
 
 .mensaje {
